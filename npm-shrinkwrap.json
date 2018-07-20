@@ -6044,7 +6044,8 @@
         },
         "ansi-regex": {
           "version": "2.1.1",
-          "bundled": true
+          "bundled": true,
+          "optional": true
         },
         "aproba": {
           "version": "1.2.0",
@@ -6409,7 +6410,8 @@
         },
         "safe-buffer": {
           "version": "5.1.1",
-          "bundled": true
+          "bundled": true,
+          "optional": true
         },
         "safer-buffer": {
           "version": "2.1.2",
@@ -6457,6 +6459,7 @@
         "strip-ansi": {
           "version": "3.0.1",
           "bundled": true,
+          "optional": true,
           "requires": {
             "ansi-regex": "^2.0.0"
           }
@@ -6495,11 +6498,13 @@
         },
         "wrappy": {
           "version": "1.0.2",
-          "bundled": true
+          "bundled": true,
+          "optional": true
         },
         "yallist": {
           "version": "3.0.2",
-          "bundled": true
+          "bundled": true,
+          "optional": true
         }
       }
     },
@@ -14044,9 +14049,9 @@
       "integrity": "sha1-1cdSgl5TZ+eG944Y5EXqIjoVWVI="
     },
     "string-kit": {
-      "version": "0.7.10",
-      "resolved": "https://registry.npmjs.org/string-kit/-/string-kit-0.7.10.tgz",
-      "integrity": "sha512-DXfmVEjQDbtw0FK3uIcGVdSmaVFUOeyZLcq2EHztogCbRngWmdN4Y0+hGCRShj9h7Un2s7/AdLxq4JtXS3KflQ==",
+      "version": "0.7.12",
+      "resolved": "https://registry.npmjs.org/string-kit/-/string-kit-0.7.12.tgz",
+      "integrity": "sha512-eoouG3p8UlzMCgMB3i19J5b8PXN42NVdtinjORBFL5yOWy4HbUSvT8e1vZ334JGiUevNhvaQItPyg9JyECS2Ng==",
       "dev": true,
       "requires": {
         "xregexp": "^4.1.1"
@@ -14703,16 +14708,16 @@
       }
     },
     "terminal-kit": {
-      "version": "1.17.12",
-      "resolved": "https://registry.npmjs.org/terminal-kit/-/terminal-kit-1.17.12.tgz",
-      "integrity": "sha512-g8lU5ULNI49kp0v4MG+5sVS7IlEXm0Llq4Z8CEVgwKaEszTlOfFrLEOiQTA7MYEX+KIHYq2b4Y6ntAEDlK5Lmg==",
+      "version": "1.17.13",
+      "resolved": "https://registry.npmjs.org/terminal-kit/-/terminal-kit-1.17.13.tgz",
+      "integrity": "sha512-mZxUGHhYZaCst8WG2wwS2o4iHQ75OvqezPo7xrgIIQHFNk6ER1y1pjN9WBv68nIaFCCNHiUahpK22wbeeJKKDg==",
       "dev": true,
       "requires": {
         "@cronvel/get-pixels": "^3.3.1",
         "async-kit": "^2.2.4",
         "ndarray": "^1.0.18",
         "nextgen-events": "^1.1.0",
-        "string-kit": "^0.7.10",
+        "string-kit": "^0.7.12",
         "tree-kit": "^0.5.27"
       }
     },
